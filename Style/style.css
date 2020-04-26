@@ -20,15 +20,15 @@
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: #5232df; 
+    background: #1a6292; 
 }
 
 ::-webkit-scrollbar-track {
-    background: #826ce4;
+    background: #4fa8e4;
 }
 
 header.header {
-    background: #7158e2;
+    background: #3498db;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -64,7 +64,7 @@ div.navigation-bar {
     width: 90%;
     height: 100px;
     position: absolute;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-left: 25px;
     border-radius: 10px;
     overflow: hidden;
@@ -104,12 +104,12 @@ section.section {
 
 section.section .about_me {
     width: 95%;
-    height: 160px;
+    height: 180px;
 }
 
 section.section .about_me h2 {
     margin-bottom: 10px;
-    color: #7158e2;
+    color: #3498db;
 }
 
 section.section .my_objectives {
@@ -120,13 +120,13 @@ section.section .my_objectives {
 
 section.section .my_objectives h2 {
     margin-bottom: 10px;
-    color: #7158e2;
+    color: #3498db;
 }
 
 /* Footer */
 
 footer.footer {
-    background: #684edb;
+    background: #3498db;
     color: white;
     width: 100%;
     height: 110px;
@@ -168,11 +168,11 @@ footer.footer .contact #locale {
     }
 
     section.section {
-        height: 450px;
+        height: 540px;
     }
 
     section.section .my_objectives {
-        margin-top: 60px;
+        margin-top: 120px;
     }
 }
 
@@ -184,11 +184,11 @@ footer.footer .contact #locale {
     }
 
     section.section {
-        height: 400px;
+        height: 460px;
     }
 
     section.section .my_objectives {
-        margin-top: 30px;
+        margin-top: 70px;
     }
 }
 
@@ -202,10 +202,13 @@ footer.footer .contact #locale {
 
     section.section {
         width: 80%;
-        height: 350px;
+        height: 400px;
         margin-left: 80px;
     }
 
+    section.section .my_objectives {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -228,13 +231,13 @@ footer.footer .contact #locale {
         width: 40%;
         margin-top: -45px;
         height: 100px;
-        margin-left: 430px;
+        margin-left: 480px;
     }
 
     section.section {
         width: 45%;
         height: 350px;
-        margin-left: 390px;
+        margin-left: 440px;
     }
 }
 
