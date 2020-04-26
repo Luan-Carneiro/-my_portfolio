@@ -13,6 +13,20 @@
     src: url(../Sources/Fonts/OpenSans-SemiBold.ttf);
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #5232df; 
+}
+
+::-webkit-scrollbar-track {
+    background: #826ce4;
+}
+
 header.header {
     background: #7158e2;
     display: flex;
@@ -31,6 +45,7 @@ header.header .title {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 header.header .title p {
@@ -57,13 +72,12 @@ div.navigation-bar {
 }
 
 div.navigation-bar .bar {
-    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 div.navigation-bar .bar img {
@@ -72,6 +86,57 @@ div.navigation-bar .bar img {
 }
 
 div.navigation-bar .bar:hover {
-    box-shadow: 0px 0px 3px black;
     cursor: pointer;
+    background: rgb(201, 201, 201);
+}
+
+/* Section */
+
+section.section {
+    width: 100%;
+    height: 340px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.section .about_me {
+    width: 95%;
+    height: 160px;
+}
+
+section.section .about_me h2 {
+    margin-bottom: 10px;
+    color: #7158e2;
+}
+
+section.section .my_objectives {
+    margin-top: 10px;
+    width: 95%;
+    height: 160px;
+}
+
+section.section .my_objectives h2 {
+    margin-bottom: 10px;
+    color: #7158e2;
+}
+
+/* Footer */
+
+footer.footer {
+    background: #684edb;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer.footer .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
