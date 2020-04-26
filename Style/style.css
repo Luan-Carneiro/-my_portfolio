@@ -36,6 +36,7 @@ header.header {
     justify-content: center;
     align-items: center;
     color: white;
+    flex-direction: column;
 }
 
 header.header .title {
@@ -49,7 +50,7 @@ header.header .title {
 }
 
 header.header .title p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header.header .title h3 {
@@ -128,7 +129,7 @@ footer.footer {
     background: #684edb;
     color: white;
     width: 100%;
-    height: 100px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,4 +140,20 @@ footer.footer .contact {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 15px;
+}
+
+footer.footer .contact #copy {
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+footer.footer .contact #contact {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+footer.footer .contact #locale {
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
